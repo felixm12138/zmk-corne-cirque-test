@@ -1,0 +1,21 @@
+file_format: "1"
+id: corne_cirque
+name: Corne with Cirque
+type: shield
+
+# Set this to a URL that documents the keyboard.
+url: https://example.com
+
+# Add any features your keyboard supports here.
+# See https://zmk.dev/docs/development/hardware-integration/hardware-metadata-files#features
+features:
+  - keys
+  - pointer
+  - studio  # Remove this line if your keyboard will not support ZMK Studio
+requires:
+  - pro_micro
+siblings:
+  - corne_cirque_left
+  - corne_cirque_left_with_device
+  - corne_cirque_right
+  - corne_cirque_right_with_device

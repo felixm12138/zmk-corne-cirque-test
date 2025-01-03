@@ -18,3 +18,12 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+include:
+  - board: nice_nano_v2
+    shield: corne_cirque_left
+  - board: nice_nano_v2
+    shield: corne_cirque_left_with_device
+  - board: nice_nano_v2
+    shield: corne_cirque_right
+  - board: nice_nano_v2
+    shield: corne_cirque_right_with_device

@@ -1,0 +1,5 @@
+config SHIELD_CIRQUE_PRO_MICRO_ADAPTER_I2C
+    def_bool $(shields_list_contains,cirque_pro_micro_adapter_i2c)
+
+config SHIELD_CIRQUE_PRO_MICRO_ADAPTER_SPI
+    def_bool $(shields_list_contains,cirque_pro_micro_adapter_spi)
