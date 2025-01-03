@@ -22,8 +22,8 @@ include:
   - board: nice_nano_v2
     shield: corne_cirque_left
   - board: nice_nano_v2
-    shield: corne_cirque_left_with_device
+    shield: corne_cirque_left_with_device cirque_pro_micro_adapter_i2c
   - board: nice_nano_v2
     shield: corne_cirque_right
   - board: nice_nano_v2
-    shield: corne_cirque_right_with_device
+    shield: corne_cirque_right_with_device cirque_pro_micro_adapter_i2c
